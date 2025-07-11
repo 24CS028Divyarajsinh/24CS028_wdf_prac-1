@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fee Receipt</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      background: linear-gradient(to right, #89f7fe, #66a6ff);
+      font-family: Arial, sans-serif;
+      padding: 40px;
+    }
+    .fee-box {
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 600px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .fee-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .fee-table th, .fee-table td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    .fee-total {
+      font-weight: bold;
+      text-align: right;
+      margin-top: 20px;
+    }
+    .next-button {
+      margin-top: 30px;
+      width: 100%;
+      padding: 12px;
+      background-color: #0073e6;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+    .next-button:hover {
+      background-color: #005bb5;
+    }
+  </style>
+</head>
+<body>
+         <header class="header">
+    <div class="header-content">
+      <img src="images/Indian Institute of Technology Bombay logo….jpeg" alt="Logo" class="logo">
+      <h1>Student Portal</h1>
+    </div>
+    <nav class="navbar">
+  <ul>
+    <li><a href="home.html"><button class="nav-btn">HOME</button></a></li>
+    <li><a href="degree.html"><button class="nav-btn">Degree Selection</button></a></li>
+    <li><a href="semester.html"><button class="nav-btn">Semester Selection</button></a></li>
+    <li><a href="fee.html"><button class="nav-btn">Fee Receipt</button></a></li>
+    <li><a href="attendance.html"><button class="nav-btn">Attendance</button></a></li>
+    <li><a href="courses.html"><button class="nav-btn">Course Selection</button></a></li>
+    <li><a href="notes.html"><button class="nav-btn">Handwritten Notes</button></a></li>
+  
+
+  </ul>
+  </header>
+  <div class="fee-box">
+    <h2>Fee Receipt</h2>
+    <table class="fee-table">
+      <tr><th>Item</th><th>Amount (INR)</th></tr>
+      <tr><td>Tuition Fee</td><td>40,000</td></tr>
+      <tr><td>Library Fee</td><td>2,000</td></tr>
+      <tr><td>Lab Fee</td><td>3,000</td></tr>
+      <tr><td>Miscellaneous</td><td>1,000</td></tr>
+    </table>
+    <div class="fee-total">Total: ₹46,000</div>
+    <form action="attendance.html">
+      <button type="submit" class="next-button">Continue</button>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semester Selection</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      background: linear-gradient(to right, #ffe259, #ffa751);
+      font-family: Arial, sans-serif;
+      padding: 40px;
+    }
+    .semester-box {
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 400px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    select, button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #ff8800;
+      color: white;
+      border: none;
+    }
+    button:hover {
+      background-color: #cc6e00;
+    }
+  </style>
+</head>
+<body>
+         <header class="header">
+    <div class="header-content">
+      <img src="images/Indian Institute of Technology Bombay logo….jpeg" alt="Logo" class="logo">
+      <h1>Student Portal</h1>
+    </div>
+    <nav class="navbar">
+  <ul>
+        <li><a href="home.html"><button class="nav-btn">HOME</button></a></li>
+    <li><a href="degree.html"><button class="nav-btn">Degree Selection</button></a></li>
+    <li><a href="semester.html"><button class="nav-btn">Semester Selection</button></a></li>
+    <li><a href="fee.html"><button class="nav-btn">Fee Receipt</button></a></li>
+    <li><a href="attendance.html"><button class="nav-btn">Attendance</button></a></li>
+    <li><a href="courses.html"><button class="nav-btn">Course Selection</button></a></li>
+    <li><a href="notes.html"><button class="nav-btn">Handwritten Notes</button></a></li>
+  
+
+  </ul>
+  </header>
+
+  <div class="semester-box">
+    <h2>Select Your Semester</h2>
+    <form action="courses.html">
+      <label for="semester">Choose Semester:</label>
+      <select id="semester" name="semester">
+        <option value="sem1">Semester 1</option>
+        <option value="sem2">Semester 2</option>
+        <option value="sem3">Semester 3</option>
+        <option value="sem4">Semester 4</option>
+        <option value="sem5">Semester 5</option>
+        <option value="sem6">Semester 6</option>
+        <option value="sem7">Semester 7</option>
+        <option value="sem8">Semester 8</option>
+      </select>
+      <button type="submit">Continue</button>
+    </form>
+  </div>
+</body>
+</html>
